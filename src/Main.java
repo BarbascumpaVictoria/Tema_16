@@ -27,8 +27,14 @@ public class Main {
         System.out.println(Sarcina3);
 
         Map<String, String> Sarcina4 = new HashMap<String, String>();
-
-
+        for(int i = 0;  i <= Sarcina2.size() ; i++) {Sarcina4.put("key" + i, Sarcina2.poll());}
+        System.out.println(Sarcina4);
+//      int i  = 0;
+//      while(Sarcina2.peek()!=null){
+//          Sarcina4.put ("key" + i, Sarcina2.poll());
+//          i++;
+//      }
+//        System.out.println(Sarcina4);
 
         }
     }
